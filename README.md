@@ -11,14 +11,11 @@ This repository contains the KiCad project files for the Luckfox extension board
 ## Directory Structure
 
 - `.kicad_pcb`, `.kicad_sch`, `.kicad_pro`: Main KiCad project files.
-- `production/`: Contains BOM, netlist, positions, and production backups.
-- `luckfox-backups/`: Automatic and manual project backups.
 
 ## Getting Started
 
 1. Open the project in KiCad.
 2. Review the schematic and PCB layout.
-3. Use the files in the `production/` directory for manufacturing and assembly.
 
 ## License
 
