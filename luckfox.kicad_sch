@@ -5,255 +5,6 @@
 	(uuid "1ea5acac-8003-4d0d-8e0a-3de6b6325c28")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x13_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
@@ -1092,46 +843,273 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:microUSBFemale"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USB"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "micro USBFemale"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:MICRO-USB-SMD_5P-P0.65-H-F_C10418"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Micro-USB-Connectors_MICRO-USB-5S-B-Type-horns-High-temperature_C10418.html"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C10418"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "microUSBFemale_0_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "microUSBFemale_1_1"
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "MTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 5.08 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 0 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -2.54 180)
+					(length 5.08)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 -5.08 180)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 111.76 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf21d4b-59b6-45dd-b530-5d5eb60168fe")
 	)
 	(wire
 		(pts
-			(xy 125.73 68.58) (xy 143.51 68.58)
+			(xy 114.3 43.18) (xy 114.3 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "739a87d7-4a7a-42de-9c33-1ca00c059399")
+		(uuid "1d05908f-4ca9-434b-aaca-1fc8ed158687")
 	)
 	(wire
 		(pts
-			(xy 125.73 41.91) (xy 125.73 68.58)
+			(xy 114.3 78.74) (xy 143.51 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aaf42cf7-4a38-4254-96a3-a4dd71fd0e8a")
+		(uuid "35e6b298-c93d-4a73-8773-4b45bcac7f85")
 	)
 	(wire
 		(pts
-			(xy 118.11 41.91) (xy 118.11 78.74)
+			(xy 111.76 43.18) (xy 114.3 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "becfa03b-59dc-4518-bd11-f8ad2db8e4b0")
+		(uuid "5885e4b9-9ddd-4a94-9651-bdd71e2ad588")
 	)
 	(wire
 		(pts
-			(xy 118.11 78.74) (xy 143.51 78.74)
+			(xy 111.76 36.83) (xy 111.76 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9c0e414-2cd6-45e3-acd3-9e2a3fe02506")
+		(uuid "8dfd3f11-2626-4c7f-a763-73a5e1804bfe")
+	)
+	(wire
+		(pts
+			(xy 107.95 43.18) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbf68f1-f724-4509-9b00-3424e04e6d73")
+	)
+	(wire
+		(pts
+			(xy 121.92 36.83) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8c8f99-5c68-4801-9802-7944bfd33e7d")
+	)
+	(wire
+		(pts
+			(xy 107.95 27.94) (xy 107.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ec0ed7-1ab7-4972-9ce4-fe06401ffbc7")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 143.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bf310e-127c-4cdb-a99b-2863456defbb")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x13_Counter_Clockwise")
@@ -1274,42 +1252,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 123.19 36.83 270)
-		(mirror x)
+		(lib_id "easyeda2kicad:microUSBFemale")
+		(at 116.84 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "939ab5c2-00b6-4dc2-bc72-e47fbc604b85")
-		(property "Reference" "J3"
-			(at 121.92 34.29 90)
+		(fields_autoplaced yes)
+		(uuid "99e342f3-9890-443a-b7ef-7fc11aba0232")
+		(property "Reference" "USB1"
+			(at 124.46 27.3049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 121.92 31.75 90)
+		(property "Value" "micro USBFemale"
+			(at 124.46 29.8449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 123.19 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 36.83 0)
+		(property "Footprint" "easyeda2kicad:MICRO-USB-SMD_5P-P0.65-H-F_C10418"
+			(at 100.33 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,8 +1288,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 123.19 36.83 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Micro-USB-Connectors_MICRO-USB-5S-B-Type-horns-High-temperature_C10418.html"
+			(at 97.79 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,22 +1297,46 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "fb6bb4fa-6e5f-4961-a1a9-036536b7668c")
+		(property "Description" ""
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "b6d946ff-284f-4417-a6b3-b67b7c15082a")
-		)
-		(pin "4"
-			(uuid "3de48bcb-4443-4f2e-a1be-08401e311ab9")
+		(property "LCSC Part" "C10418"
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "d3d33078-57b7-4cc5-9635-27985f5c7ce9")
+			(uuid "785882be-2ce0-42a4-985b-8c6043887110")
+		)
+		(pin "5"
+			(uuid "86b37420-02bd-4d5b-a5b5-726cef7685cb")
+		)
+		(pin "2"
+			(uuid "44e337b7-84c1-4cfc-a2a3-db7af7801658")
+		)
+		(pin "3"
+			(uuid "388f3000-d333-41bb-8e15-368d0650d1bb")
+		)
+		(pin "4"
+			(uuid "e735a36f-5795-496c-9e30-a660f5e2edd8")
+		)
+		(pin "SH0"
+			(uuid "4638e824-19cc-4c91-aa80-97daea3e0157")
 		)
 		(instances
 			(project ""
 				(path "/1ea5acac-8003-4d0d-8e0a-3de6b6325c28"
-					(reference "J3")
+					(reference "USB1")
 					(unit 1)
 				)
 			)
